@@ -1,0 +1,32 @@
+Instructions:
+------------
+
+
+1. Start a notebook.
+
+2. Data has been provided in the zip file - you are to do the classification and regression tasks
+
+3. For the classification dataset perform the following tasks:
+	
+(a) Using sklearn, read the data into a numpy array - or into a form you can use for training your algorithms
+	
+(b) Using sklearn split the data into a training set of 80% of the training set and 20% for the test set
+	
+(c) Train an SVM algorithm on the training data and get a score for the accuracy on the test set
+	
+(d) Use another performance measure in sklearn apart from the accuracy for how your algorithm performs on the test data.
+	
+(e) Using sklearn run an 10 fold cross validation using all the data and provide the 10 scores for each validation run. Provide also the mean value for 
+the 10 validation runs.
+
+
+
+4. For the regression dataset perform the following tasks:
+	
+(a) Using sklearn, read the data into a numpy array - or into a form you can use for training your algorithms
+	
+(b) Using sklearn split the data into a training set of 80% of the training set and 20% for the test set
+	
+(c) Train an RandomForest Regression algorithm on the training data and get a score for the error on the test set
+	
+(d) Use another performance measure in sklearn apart from the accuracy for how your algorithm performs on the test data.
